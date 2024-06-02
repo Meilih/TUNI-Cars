@@ -1,0 +1,25 @@
+/* Ställer in teckensnittet för hela sidan */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Ställer in bakgrundsfärg och padding för bildtexter i karusellen */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Svart bakgrund med 50% transparens */
+    padding: 10px;
+}
+
+/* Ställer in övergångseffekten för kort */
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Skaleffekt när man hovrar över kort */
+.card:hover {
+    transform: scale(1.05); /* Skalar upp kortet till 105% av sin ursprungliga storlek */
+}
+
+/* Ställer in bakgrundsfärgen för sidfoten */
+footer {
+    background-color: #f8f9fa; /* Ljusgrå bakgrundsfärg */
+}

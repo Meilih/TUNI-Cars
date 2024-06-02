@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta-taggar för teckenuppsättning och responsiv design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Titel för webbsidan -->
+    <title>Cars for Sale - Tuni Cars</title>
+    
+    <!-- Länkar till externa stilmallar -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigationsfält med Bootstrap-klasser -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Logo och hemsidelänk -->
+        <a class="navbar-brand" href="index.html"><img src="Desktop/images/logo.webp" alt="Tuni Cars" width="50"> Tuni Cars</a>
+        
+        <!-- Knapp för att visa navigationsfältet på små skärmar -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navigationslänkar -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="cars.html">Cars</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Huvudinnehåll med bilar till salu -->
+    <div class="container py-5">
+        <h2 class="text-center">Cars for Sale</h2>
+        <div class="row">
+            <!-- Kort för bil 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Desktop/images/sausage-car.jpg" class="card-img-top" alt="Car 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Glizzy Gladiator</h5>
+                        <p class="card-text">Price: Two organs</p>
+                        <a href="car-details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Kort för bil 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Desktop/images/shoebox-car.webp" class="card-img-top" alt="Car 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Shoebox</h5>
+                        <p class="card-text">Price: Used socks</p>
+                        <a href="car-details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Kort för bil 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Desktop/images/wario-car.jpg" class="card-img-top" alt="Car 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Wariozz</h5>
+                        <p class="card-text">Price: Priceless</p>
+                        <a href="car-details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidfot -->
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2024 Tuni Cars. All rights reserved.</p>
+    </footer>
+
+    <!-- Länkar till externa JavaScript-filer -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
